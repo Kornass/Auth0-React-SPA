@@ -9,7 +9,7 @@ Clone the repo and install all dependecies
 - In tenant (that groups your applications), create a new application.
 
 <p align="center">
-  <img width="500" height="200" src="./screenshots/Create.png">
+  <img width="500" height="170" src="./screenshots/Create.png">
 </p>
 
 - Choose type of your application - Single Page Website is the one that we want to choose when integrating with serverless React
@@ -28,8 +28,6 @@ Clone the repo and install all dependecies
 
   > If you want to set up a new social connection, go to Authentication --> Social --> Create Connection.
   > Remember to add desired permissions for accessing certain provider user data.
-
-- Run `npm i @auth0/auth0-react` from your react app root directory.
 
 - Fill up .env with your application domain and client id that you can find in application settings dashboard.
 

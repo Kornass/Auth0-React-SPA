@@ -13,8 +13,7 @@ import Products from "./views/Products";
 import Navbar from "./components/Navbar";
 
 function App() {
-  const { isLoading, isAuthenticated, error, user, loginWithRedirect, logout } =
-    useAuth0();
+  const { isLoading, isAuthenticated, error } = useAuth0();
 
   if (isLoading) {
     return <Spinner />;
